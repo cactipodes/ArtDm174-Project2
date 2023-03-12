@@ -113,7 +113,7 @@ img:nth-child(6){
     }
 
     h1{
-        font-size: clamp(12vh, 4rem + 39vw, 35vh); /*clamp(17rem, 2rem + 44vw, 30rem)*/
+        font-size: clamp(18vh, 8rem + 12vw, 30vh); /*clamp(17rem, 2rem + 44vw, 30rem)*/
     }
 
     img:nth-child(4){
