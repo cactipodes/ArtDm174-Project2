@@ -19,6 +19,8 @@ slide.onclick = function(e){  //error-group of items
     console.log(index);
 }*/
 
+//fitText(document.querySelector('h1'), 0.80);
+
 for (var i = 0; i < slide.length; i++) {  //for each item in slide collection
     slide[i].onclick = function(e){  //assign on click function to slide collection item
         e.preventDefault();

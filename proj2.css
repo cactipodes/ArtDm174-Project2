@@ -27,7 +27,7 @@
 
 h1{
     font-family: 'Six Caps', sans-serif;
-    font-size: clamp(18rem, 1.5rem + 40vw, 38rem);
+    font-size: clamp(30vh, 1.5rem + 39vw, 50vh); /*clamp(18rem, 2rem + 40vw, 35rem)*/
     line-height: .93;
     letter-spacing: 4px;
     text-align: center;
@@ -48,10 +48,12 @@ h2, h3{
     margin: 0 5rem 0 5rem;
     max-width: 1200px;
     min-width: 500px;
+    max-height: 75vh;
     aspect-ratio: 4 / 3;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 /**************************content box imgs**************************/
@@ -106,12 +108,12 @@ img:nth-child(6){
         grid-template-columns: repeat(3, 1fr);
         margin: 0 3rem 0 3rem;
         min-width: 400px;
-        max-height: 880px;
+
         aspect-ratio: 3 / 4;
     }
 
     h1{
-        font-size: clamp(17rem, 1rem + 48vw, 38rem);
+        font-size: clamp(12vh, 4rem + 39vw, 35vh); /*clamp(17rem, 2rem + 44vw, 30rem)*/
     }
 
     img:nth-child(4){
